@@ -2723,6 +2723,10 @@ device_parsers:
     device_replacement: '$2'
     brand_replacement: 'Google'
     model_replacement: '$2'
+  - regex: '; {0,2} ([g|G]oogle)? (Pixel[ a-zA-z0-9]{1,100})'
+    device_replacement: '$2'
+    brand_replacement: 'Google'
+    model_replacement: '$2'
 
   #########
   # Gigabyte
